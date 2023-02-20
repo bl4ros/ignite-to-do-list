@@ -1,0 +1,31 @@
+.headerComponent {
+  height: 200px;
+  background-color: var(--gray-700);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.headerComponent > img {
+}
+
+.toTitle {
+  color: var(--blue);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+
+.doTitle {
+  color: var(--purpleDark);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
