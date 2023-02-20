@@ -26,6 +26,22 @@
   color: var(--blueDark);
 }
 
+.check button {
+  background: var(--purpleDark);
+
+  border: 0;
+  cursor: pointer;
+  border-radius: 50%;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  transition: 0.3s background;
+}
+
+.check button:hover {
+  background: var(--purple);
+}
+
 .trash button {
   background: transparent;
   border: 0;
@@ -45,4 +61,11 @@
   flex: 1;
   color: var(--gray-100);
   text-align: left;
+}
+
+.descriptionTaskCompleted {
+  flex: 1;
+  color: var(--gray-300);
+  text-align: left;
+  text-decoration: line-through;
 }
