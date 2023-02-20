@@ -22,7 +22,7 @@
 ## Desktop
 
 ### To-do-list
-![image](https://user-images.githubusercontent.com/95880342/219948347-ac5e1ae6-5bc0-4ba3-981e-2bfbe0042f56.png)
+![image](https://user-images.githubusercontent.com/95880342/220206912-6155c980-2d3a-4cb0-9b6d-c89c1eb85758.png)
 
 ### Details
 ![image](https://user-images.githubusercontent.com/95880342/220206838-efd6277a-2ed8-459f-8e3d-2f6ebb0f20a1.png)
