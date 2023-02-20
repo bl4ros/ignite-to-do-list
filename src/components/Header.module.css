@@ -1,4 +1,5 @@
 .headerComponent {
+  width: 100vw;
   height: 200px;
   background-color: var(--gray-700);
 
@@ -7,9 +8,6 @@
   align-items: center;
 
   gap: 12px;
-}
-
-.headerComponent > img {
 }
 
 .toTitle {
