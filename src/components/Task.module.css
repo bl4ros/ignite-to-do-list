@@ -1,0 +1,48 @@
+.taskContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 12px;
+  background-color: var(--gray-500);
+  border-radius: 8px;
+}
+
+.taskContainer + .taskContainer {
+  margin-top: 12px;
+}
+
+.circle > button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  transition: 0.3s background;
+}
+
+.circle button:hover {
+  color: var(--blueDark);
+}
+
+.trash button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  color: var(--gray-300);
+
+  display: flex;
+  align-items: center;
+  transition: 0.3s background;
+}
+
+.trash button:hover {
+  color: var(--danger);
+}
+
+.description {
+  flex: 1;
+  color: var(--gray-100);
+  text-align: left;
+}
