@@ -1,0 +1,10 @@
+.notTask {
+  display: flex;
+  height: 244px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+
+  border-top: 1px solid var(--gray-300);
+}
