@@ -1,0 +1,79 @@
+.taskWrapper {
+  max-width: 736px;
+  margin-top: -25px;
+}
+
+.inputContainer > input {
+  width: 638px;
+  height: 54px;
+
+  background-color: var(--gray-500);
+  color: #fff;
+
+  border-radius: 4px;
+  border: none;
+
+  padding: 16px;
+}
+
+.button {
+  width: 90px;
+  height: 54px;
+  background: var(--blueDark);
+  color: #fff;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  border-radius: 8px;
+
+  gap: 8px;
+
+  cursor: pointer;
+  transition: 0.3s background;
+}
+
+.button:hover {
+  background: var(--blue);
+}
+
+.dashboardWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  margin-bottom: 24px;
+}
+
+.blueColor {
+  color: var(--blue);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.purpleColor {
+  color: var(--purpleDark);
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.dashboardValue {
+  color: var(--gray-200);
+  background: #333333;
+  padding: 2px 8px;
+  border-radius: 30px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
