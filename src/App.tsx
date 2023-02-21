@@ -11,34 +11,30 @@ export interface TaskContentProps {
   task_content: string;
   complete: boolean;
 }
+const temp_Id = new Date().getTime();
+
+const initialState = {
+  id: temp_Id,
+  task_content: "",
+  complete: false,
+};
 
 export function App() {
   const [tasks, setTasks] = React.useState<TaskContentProps[]>([]);
-  const [newTaskText, setNewTaskText] = React.useState({
-    id: new Date().getTime(),
-    task_content: "",
-    complete: false,
-  });
-
-  const temp_Id = new Date().getTime();
+  const [newTaskText, setNewTaskText] = React.useState(initialState);
 
   function handleNewTaskContent(event: React.ChangeEvent<HTMLInputElement>) {
     event.preventDefault();
-    setNewTaskText({
-      id: temp_Id,
+    setNewTaskText((state) => ({
+      ...state,
       task_content: event.target.value,
-      complete: false,
-    });
+    }));
   }
 
   function handleCreateNewComment(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setTasks([...tasks, newTaskText]);
-    setNewTaskText({
-      id: 0,
-      task_content: "",
-      complete: false,
-    });
+    setNewTaskText(initialState);
   }
 
   function handleDeleteTask(taskToDelete: number) {
